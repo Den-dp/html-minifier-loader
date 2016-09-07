@@ -6,7 +6,7 @@
     "webpack",
     "loader"
   ],
-  "description": "Webpack loader that minifies HTML by [html-minifier](https://github.com/kangax/html-minifier)",
+  "description": "Webpack loader that minifies HTML by html-minifier",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/sapics/html-minifier-loader",
   "dependencies": {
-    "loader-utils": "^0.2.12"
+    "loader-utils": "^0.2.15",
+    "html-minifier": ">= 0.4.0"
   },
   "peerDependencies": {
     "html-minifier": "*"

@@ -18,10 +18,13 @@
     "url": "https://github.com/sapics/html-minifier-loader/issues"
   },
   "homepage": "https://github.com/sapics/html-minifier-loader",
-  "dependencies": {
-    "loader-utils": "^0.2.12"
-  },
   "peerDependencies": {
-    "html-minifier": "*"
+    "html-minifier": ">= 0.4.0"
+  },
+  "dependencies": {
+    "loader-utils": "^0.2.15"
+  },
+  "devDependencies": {
+    "html-minifier": ">= 0.4.1"
   }
 }
